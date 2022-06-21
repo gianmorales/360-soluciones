@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../static/iconfont/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local('Material Icons'), local('MaterialIcons-Regular'),
+    url(../../static/iconfont/MaterialIcons-Regular.woff2)
+    format('woff2'),
+    url(../../static/iconfont/MaterialIcons-Regular.woff)
+    format('woff'), url(../../static/iconfont/MaterialIcons-Regular.ttf)
+    format('truetype');
+  }
+  
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #24252A;
+}
+body{
+	display: grid;
+	background: black;
+}
+li, a, button{
+	font-family: "Monserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 30px 10%;	
+}
+
+.logo{
+	cursor: pointer;
+	height: 100px;
+	margin-right: auto;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 9px 25px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: #0088a9;
+}
+
+button{
+	margin-left: 20px;
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover{
+	background-color: rgba(0, 136, 169, 0.8);
+}
+
+.buttonsmain{
+	padding: 20px 30px 100px 30px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.social-networks{
+	padding: 10px 30px 10px 10px;
+	text-align: right;
+	color: white;
+	font-size: 5px;
+}
+.footer{
+	background-color: white;
+	color: darkblue;
+	align-self: flex-end;
+	padding: 1em 0;
+	text-align: center;
+}
+.aling{
+	display: flex;
+	align-items: center;
+}
