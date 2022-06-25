@@ -1,14 +1,17 @@
 <template>
   <div class="row d-flex justify-content-center">
-    <div class="col-md-11">
+    <div class="col-md-12">
       <div class="row d-flex justify-content-end">
-        <div class="col-md-10">
+        <div class="col-md-12">
           <header-menu></header-menu>
         </div>
       </div>
       <main>
         <nuxt></nuxt>
       </main>
+      
+    </div>
+    <div class="col-md-12">
       <div class="buttonsmain">
         <a href="/vitrina"
           ><button type="button" class="btn btn-info">
@@ -21,8 +24,6 @@
           </button></a
         >
       </div>
-    </div>
-    <div class="col-md-12">
       <footer-menu></footer-menu>
     </div>
   </div>

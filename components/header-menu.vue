@@ -1,26 +1,29 @@
 <template>
-  <div>
-    <div class="row">
+  <div class="row">
+    <div class="col-md-3 p-0">
+      <img src="/imagenes/logo1.png" alt="">
+    </div>
+    <div class="col-md-9 p-0">
       <header class="img">
         <div class="col-md-12">
           <nav>
             <ul>
               <li>
-                <a href="/"><button class="button">Inicio</button></a>
+                <a href="/"><button class="">Inicio</button></a>
               </li>
               <li>
                 <a href="/presentacion"
-                  ><button class="button">Presentación</button></a
+                  ><button class="">Presentación</button></a
                 >
               </li>
               <li>
-                <a href="#"><button class="button">Equipo</button></a>
+                <a href="/"><button class="">Equipo</button></a>
               </li>
               <li>
-                <a href="#"><button class="button">Servicios</button></a>
+                <a href="/servicios"><button class="">Servicios</button></a>
               </li>
               <li>
-                <a href="#"><button class="button">Clientes</button></a>
+                <a href="/"><button class="">Clientes</button></a>
               </li>
               <li>
                 <a href="/contacto"
@@ -32,22 +35,6 @@
         </div>
       </header>
     </div>
-
-    <header class="sticky-top">
-      <img class="logo" src="/imagenes/logo1.png" alt="logo" />
-      <nav>
-        <ul class="nav_links">
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/presentacion">Presentación</a></li>
-          <li><a href="#">Equipo</a></li>
-          <li><a href="/servicios">Servicios</a></li>
-          <li><a href="#">Clientes</a></li>
-        </ul>
-      </nav>
-      <a class="cta" href="/contacto"
-        ><button class="button">Contáctanos</button></a
-      >
-    </header>
   </div>
 </template>
 <script>
@@ -61,16 +48,15 @@ export default {};
   height: 70px;
 }
 button {
-  margin-left: 20px;
+  margin: 12px 20px ;
   padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
+  background-color: rgb(11, 12, 12);
   border: none;
-  border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  color: #0BD3B4;
 }
 nav {
-  width: 100%;
   height: 60px;
   float: left;
 }

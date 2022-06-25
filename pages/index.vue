@@ -1,6 +1,6 @@
 <template >
   <div class="row d-flex justify-content-center">
-    <img src="/imagenes/banner.png" style="border-radius: 50px" />
+    <img src="/imagenes/banner.png" class="mt-4 mb-5" style="border-radius: 50px; width: 90%; height: 300px;" />
     <div class="col-md-12">
       <div
         id="carouselExampleIndicators"
@@ -29,15 +29,19 @@
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/imagenes/img1.png" class="d-block w-100" />
-          </div>
-          <div class="carousel-item">
-            <img src="/imagenes/img2.png" class="d-block w-100" />
-          </div>
-          <div class="carousel-item">
-            <img src="/imagenes/img3.png" class="d-block w-100" />
+        <div class="carousel-inner ">
+          <div class="row d-flex justify-content-center">
+             <div class="col-sm-10 col-xs-11 col-md-8" style="padding: 5px 0;">
+                <div class="carousel-item active">
+              <img src="/imagenes/img1.png" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img src="/imagenes/img2.png" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img src="/imagenes/img3.png" class="d-block" />
+            </div>
+             </div>
           </div>
         </div>
         <button
@@ -73,13 +77,13 @@ export default {
 </script>
 <style scoped>
 img {
-  height: 300px;
+  height:auto;
+  width: 100%;
 }
-.imgfondo{
+.imgfondo {
   background-image: url("/imagenes/lovepik.png");
   background-position: center;
   background-size: contain;
   height: 150px;
-
 }
 </style>

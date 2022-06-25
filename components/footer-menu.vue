@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed-bottom">
+  <div>
     <div class="social-networks">
       <a style="color:black">Síguenos en: </a>
       <a href="https://www.facebook.com/360solucionesperu" target="_blank"
@@ -29,8 +29,8 @@
 </template>
 <style scoped>
 svg{
-  width: 40px;
-  height: 45px;
+  width: 30px;
+  height: 35px;
   padding-bottom: 12px;
 }
 </style>

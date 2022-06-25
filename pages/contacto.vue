@@ -1,6 +1,6 @@
 <template>
-  <div class="div">
-    <div class="contaccolor">
+  <div class="row d-flex justify-content-center div">
+    <div class="col-md-8 col-sm-10 col-xs-11 contaccolor div">
       <h2>¿NECESITAS QUE TE AYUDEMOS?</h2>
       <p>Contacta con nosotros e intentaremos resolver todas tus dudas</p>
       <div class="row rowcenter">
@@ -77,6 +77,7 @@ p {
 }
 .div {
   padding-top: 42px;
+  padding-bottom: 30px;
 }
 a {
   color: black;
@@ -91,7 +92,7 @@ svg {
 }
 .contaccolor{
   background-color: #eee;
-  width: 60%;
+
   display: block;
   justify-content: center;
 }
