@@ -1,6 +1,7 @@
 <template>
-  <div class="row">
-    <header class="img">
+  <div>
+    <div class="row">
+      <header class="img">
         <div class="col-md-12">
           <nav>
             <ul>
@@ -29,6 +30,23 @@
             </ul>
           </nav>
         </div>
+      </header>
+    </div>
+
+    <header class="sticky-top">
+      <img class="logo" src="/imagenes/logo1.png" alt="logo" />
+      <nav>
+        <ul class="nav_links">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/presentacion">Presentación</a></li>
+          <li><a href="#">Equipo</a></li>
+          <li><a href="/servicios">Servicios</a></li>
+          <li><a href="#">Clientes</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="/contacto"
+        ><button class="button">Contáctanos</button></a
+      >
     </header>
   </div>
 </template>
