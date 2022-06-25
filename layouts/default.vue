@@ -40,8 +40,9 @@ body{
 	background: black;
 }
 .img{
-    background-image: url("/imagenes/lovepik.png");
+    background-image: url("/imagenes/fondo.jpeg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
+
 </style>
