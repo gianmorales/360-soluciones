@@ -7,7 +7,7 @@
         <li><a href="/presentacion">Presentación</a></li>
         <li><a href="#">Equipo</a></li>
         <li><a href="#">Servicios</a></li>
-        <li><a href="#">Clientes</a></li>
+        <li><a href="#" class="cta"><button class="button">Clientes</button></a></li>
       </ul>
     </nav>
     <a class="cta" href="/contacto"><button class="button">Contáctanos</button></a>
