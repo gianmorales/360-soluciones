@@ -6,8 +6,13 @@
         <li><a href="/">Inicio</a></li>
         <li><a href="/presentacion">Presentación</a></li>
         <li><a href="#">Equipo</a></li>
+<<<<<<< HEAD
         <li><a href="/servicios">Servicios</a></li>
         <li><a href="#">Clientes</a></li>
+=======
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#" class="cta"><button class="button">Clientes</button></a></li>
+>>>>>>> dae93a314f79fcbb3a7f20091ceeb0560e704b85
       </ul>
     </nav>
     <a class="cta" href="/contacto"><button class="button">Contáctanos</button></a>
