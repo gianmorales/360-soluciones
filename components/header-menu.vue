@@ -1,12 +1,12 @@
 <template>
-  <header>
+  <header class="sticky-top">
     <img class="logo" src="/imagenes/logo1.png" alt="logo" />
     <nav>
       <ul class="nav_links">
         <li><a href="/">Inicio</a></li>
         <li><a href="/presentacion">Presentación</a></li>
         <li><a href="#">Equipo</a></li>
-        <li><a href="#">Servicios</a></li>
+        <li><a href="/servicios">Servicios</a></li>
         <li><a href="#">Clientes</a></li>
       </ul>
     </nav>

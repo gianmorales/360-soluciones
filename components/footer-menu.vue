@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fixed-bottom">
     <div class="social-networks">
       <a style="color:black">Síguenos en: </a>
       <a href="https://www.facebook.com/360solucionesperu" target="_blank"
