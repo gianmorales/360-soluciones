@@ -1,22 +1,30 @@
 <template>
-  <div>
-    <header-menu class="img"></header-menu>
-    <main>
-      <nuxt></nuxt>
-    </main>
-    <div class="buttonsmain">
-      <a href="/vitrina"
-        ><button type="button" class="btn btn-info">
-          Vitrina de Talentos
-        </button></a
-      >
-      <a href="/registrate"
-        ><button type="button" class="btn btn-info">
-          Registra tus datos
-        </button></a
-      >
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-11">
+      <div class="row d-flex justify-content-end">
+        <div class="col-md-10">
+          <header-menu></header-menu>
+        </div>
+      </div>
+      <main>
+        <nuxt></nuxt>
+      </main>
+      <div class="buttonsmain">
+        <a href="/vitrina"
+          ><button type="button" class="btn btn-info">
+            Vitrina de Talentos
+          </button></a
+        >
+        <a href="/registrate"
+          ><button type="button" class="btn btn-info">
+            Registra tus datos
+          </button></a
+        >
+      </div>
     </div>
-    <footer-menu></footer-menu>
+    <div class="col-md-12">
+      <footer-menu></footer-menu>
+    </div>
   </div>
 </template>
 
@@ -35,14 +43,8 @@ button {
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
-body{
-	display: grid;
-	background: black;
+body {
+  display: grid;
+  background: black;
 }
-.img{
-    background-image: url("/imagenes/fondo.jpeg");
-    background-position: center;
-    background-size: cover;
-  }
-
 </style>
