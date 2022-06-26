@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="social-networks">
-      <a style="color:black">Síguenos en: </a>
+      <a style="color:white">Síguenos en: </a>
       <a href="https://www.facebook.com/360solucionesperu" target="_blank"
         ><svg viewBox="0 0 24 24" color="#3b5998">
           <path

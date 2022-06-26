@@ -4,30 +4,30 @@
       <img src="/imagenes/logo1.png" alt="">
     </div>
     <div class="col-md-9 p-0">
-      <header class="img">
+      <header>
         <div class="col-md-12">
           <nav>
             <ul>
               <li>
-                <a href="/"><button class="">Inicio</button></a>
+                <a href="/"><button class="">INICIO</button></a>
               </li>
               <li>
                 <a href="/presentacion"
-                  ><button class="">Presentación</button></a
+                  ><button class="">PRESENTACIÓN</button></a
                 >
               </li>
               <li>
-                <a href="/"><button class="">Equipo</button></a>
+                <a href="/"><button class="">EQUIPO</button></a>
               </li>
               <li>
-                <a href="/servicios"><button class="">Servicios</button></a>
+                <a href="/servicios"><button class="">SERVICIOS</button></a>
               </li>
               <li>
-                <a href="/"><button class="">Clientes</button></a>
+                <a href="/"><button class="">CLIENTES</button></a>
               </li>
               <li>
                 <a href="/contacto"
-                  ><button class="button">Contáctanos</button></a
+                  ><button class="button">CONTÁCTANOS</button></a
                 >
               </li>
             </ul>
@@ -41,20 +41,15 @@
 export default {};
 </script>
 <style scoped>
-.img {
-  background-image: url("/imagenes/lovepik.png");
-  background-position: end;
-  background-size: contain;
-  height: 70px;
-}
 button {
   margin: 12px 20px ;
   padding: 9px 25px;
-  background-color: rgb(11, 12, 12);
+  background-color: rgb(139, 192, 192);
   border: none;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  color: #0BD3B4;
+  color: white;
+  border-radius: 10px;
 }
 nav {
   height: 60px;
