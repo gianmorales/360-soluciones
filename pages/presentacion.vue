@@ -1,54 +1,94 @@
 <template>
+	
+    <section>
+		<div class="caption">
+			<video muted autoplay loop plays-inline>
+				<source src="/imagenes/video-presentacion.mp4" type="video/mp4">
+			</video>
+		</div>
+		
+		<article>
+			<h2>SOMOS</h2
+			<p class="subtle">
+				Empresa dedicada a brindar personal calificado para eventos, ademas de poder realizar eventos corporativos y sociales.
+				<br>Contamos con personal calificado y experimentado para que tu evento salga perfecto
+			</p>	
+		</article>
 
-    <section class="cards-presentation">
-
-		<div>
-			<h2 class="title">NOSOTROS</h2>
+		<aside>
+			<h2 class="title">MISIÓN</h2>
 			<h5 class="subtle">
-				Somos una empresa dedicada a brindar personal calificado y experimentado para el rubro hotelero. 
-				<br>Además, realizamos eventos corporativos y sociales
-			</h5>
-				
-		</div>	
+				Satisfacer al 100%  a nuestros clientes, mediante la prestación  de soluciones integrales para la realización de todo tipo de eventos, que consisten en: organización, planeación, logística , decoración, renta de mobiliario, mantelería y prestación de personal de servicio.
+			</h5>	
+		</aside>	
 
-		<div class="card bg-dark text-white">
-<<<<<<< HEAD
-		  <img src="/imagenes/img2.png" class="card-img" alt="...">
-=======
-		  <img src="imagenes/img1.png" class="card-img" alt="...">
->>>>>>> dae93a314f79fcbb3a7f20091ceeb0560e704b85
-		  <div class="card-img-overlay">
-		    <h5 class="servicio-title">Cocina</h5>
-		    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-		    <p class="card-text">Last updated 3 mins ago</p>
-		  </div>
-		</div>
-
-		<div class="card bg-dark text-white">
-<<<<<<< HEAD
-		  <img src="/imagenes/img2.png" class="card-img" alt="...">
-=======
-		  <img src="imagenes/img1.png" class="card-img" alt="...">
->>>>>>> dae93a314f79fcbb3a7f20091ceeb0560e704b85
-		  <div class="card-img-overlay">
-		    <h5 class="servicio-title">Eventos Sociales</h5>
-		    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-		    <p class="card-text">Last updated 3 mins ago</p>
-		  </div>
-		</div>
-
-		<div class="card bg-dark text-white">
-<<<<<<< HEAD
-		  <img src="/imagenes/img2.png" class="card-img" alt="...">
-=======
-		  <img src="imagenes/img1.png" class="card-img" alt="...">
->>>>>>> dae93a314f79fcbb3a7f20091ceeb0560e704b85
-		  <div class="card-img-overlay">
-		    <h5 class="servicio-title">Card title</h5>
-		    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-		    <p class="card-text">Last updated 3 mins ago</p>
-		  </div>
-		</div>
+		<aside>
+			<h2 class="title">VISIÓN</h2>
+			<h5 class="subtle">
+				Ser una empresa líder y con alto prestigio en el ámbito de eventos y banquetes, tomando siempre en cuenta la innovación, perfección y las nuevas tendencias del mercado para estar siempre a la vanguardia y responder a las más altas exigencias.
+			</h5>	
+		</aside>
+		
 	</section>
-
+	
 </template>
+
+<style>
+
+	body{
+        background: black;
+    }
+	section{
+		width: 100%;
+		padding:20px;
+		float: left;
+	}
+	article{
+		float: left;
+		width: 100%;
+		padding: 50px;
+		position: relative;
+		text-align: center;
+		color: white;
+		font-size: 18px;
+	}
+	h2{
+        text-align: center;
+        color: #00ffab;
+        font-size: 28px;
+        padding: 0;
+    }
+	h5{
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        padding: 0;
+    }
+	aside{
+		float: left;
+		width: 50%;
+		padding: 50px;
+
+	}
+	.caption{
+		width:100%;
+		float: left;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+		opacity: 20%;
+		display: flex;
+		flex-content: center;
+		align-content: center;
+		justify-content: center;
+		
+	}
+	video{
+		width:100%;
+		flex-content: center;
+		align-content: center;
+	}
+
+	
+</style>

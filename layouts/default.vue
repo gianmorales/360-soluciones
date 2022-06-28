@@ -4,18 +4,7 @@
     <main>
       <nuxt></nuxt>
     </main>
-    <div class="buttonsmain">
-      <a href="/vitrina"
-        ><button type="button" class="btn btn-info">
-          Vitrina de Talentos
-        </button></a
-      >
-      <a href="/registrate"
-        ><button type="button" class="btn btn-info">
-          Registra tus datos
-        </button></a
-      >
-    </div>
+    
     <footer-menu></footer-menu>
   </div>
 </template>
