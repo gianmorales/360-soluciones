@@ -3,7 +3,7 @@
     <section>
 		<div class="caption">
 			<video muted autoplay loop plays-inline>
-				<source src="/imagenes/video-presentacion.mp4" type="video/mp4">
+				<source src="/imagenes/video1.mp4" type="video/mp4">
 			</video>
 		</div>
 		

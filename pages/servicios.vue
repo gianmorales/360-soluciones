@@ -1,42 +1,75 @@
 <template>
     <main presentation>
+		<h2>NUESTROS SERVICIOS</h2>
+		<div class="caption">
+			<video muted autoplay loop plays-inline>
+				<source src="/imagenes/video1.mp4" type="video/mp4">
+			</video>
+		</div>
 		<section>
-			
-			<div class="caption">
-				<video muted autoplay loop plays-inline>
-					<source src="/imagenes/video1.mp4" type="video/mp4">
-				</video>
-			</div>
-			
-			<article>
-				<h2>TE OFRECEMOS</h2>
-					<h5>EVENTOS Y REUNIONES EMPRESA - OPC</h5>
-					<p class="subtle">
-						Empresa dedicada a brindar personal calificado para eventos, ademas de poder realizar eventos corporativos y sociales.
-						<br>Contamos con personal calificado y experimentado para que tu evento salga perfecto
-					</p>	
-					<h5>COMUNICACIÓN CORPORATIVA Y NUEVAS TECNOLOGÍAS</h5>
-					<p class="subtle">
-						Presentaciones, lanzamientos de productos y marcas, roadshows, street marketing, btl, entretenimiento audiovisual con Videomapping, comunicación digital en eventos, plataforma de marketing experiencial & social media engagement, entretenimiento audiovisual (videomapping, holografías…), soluciones tecnológicas de control de asistencia, aforo e identificación.
-					</p>
-					<h5>EVENTOS CORPORATIVOS PRIVADOS</h5>
-					<p class="subtle">
-						Presentaciones, lanzamientos de productos y marcas, roadshows, street marketing, btl, entretenimiento audiovisual con Videomapping, comunicación digital en eventos, plataforma de marketing experiencial & social media engagement, entretenimiento audiovisual (videomapping, holografías…), soluciones tecnológicas de control de asistencia, aforo e identificación.
-					</p>
-					<h5>EVENTOS DEPORTIVOS CORPORATIVOS Y PRIVADOS</h5>
-					<p class="subtle">
-						Organización de eventos y torneos deportivos y organización de carreras populares…
-					</p>
-			</article>	
+				<div class="card" style="width: 18rem;">
+					<img src="/imagenes/1.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">EVENTOS Y REUNIONES EMPRESA - OPC</h5>
+						<p class="card-text">Congresos, conferencias, convenciones, ferias, exposiciones, workshops, cofe breaks, reuniones de trabajo, sesiones de networking</p>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="/imagenes/2.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">COMUNICACIÓN CORPORATIVA Y NUEVAS TECNOLOGÍAS</h5>
+						<p class="card-text">Presentaciones, lanzamientos de productos y marcas, roadshows, street marketing, btl, entretenimiento audiovisual con Videomapping, comunicación digital en eventos</p>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="/imagenes/3.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">EVENTOS CORPORATIVOS PRIVADOS</h5>
+						<p class="card-text">Fiestas y aniversarios de empresas, Fiestas privadas, Celebraciones, comidas y cenas de empresa, ceremonia de entrega de premios, inauguraciones de locales y sedes, family days</p>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="/imagenes/4.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">EVENTOS DEPORTIVOS CORPORATIVOS Y PRIVADOS</h5>
+						<p class="card-text">Organización de eventos y torneos deportivos y organización de carreras populares</p>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="/imagenes/5.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">PERSONAL CALIFICADO</h5>
+						<p class="card-text">Disponemos de los profesionales más cualificados, de los mejores y más avanzados medios técnicos</p>
+					</div>
+				</div>
 		</section>			
 	</main>
 </template>
 <style>
-	
 	section{
-		width: 100%;
-		padding:20px;
-		float: left;
+		display: flex;
+		width: auto;
+		margin: 30px;
+	}
+	.card{
+		background: black;
+		border: solid #00ffab 1px;
+		margin: 10px;
+	}
+	h2{
+        text-align: center;
+        color: #00ffab;
+        font-size: 28px;
+    }
+	h5{
+        text-align: left;
+        color: #00ffab;
+        font-size: 18px;
+		text-align: center;
+    }
+	p{
+		color: white;
+		text-align: center;
 	}
 	.caption{
 		width:100%;
@@ -45,7 +78,7 @@
 		right: 0;
 		bottom: 0;
 		z-index: -1;
-		opacity: 30%;
+		opacity: 50%;
 		display: flex;
 		flex-content: center;
 		align-content: center;
@@ -56,28 +89,5 @@
 		width:100%;
 		flex-content: center;
 		align-content: center;
-	}
-	article{
-		width: 70%;
-		margin: 0 0 0 30px;
-		justify-content: center;
-	}
-	h2{
-        text-align: left;
-        color: #00ffab;
-        font-size: 28px;
-        padding: 20px;
-		border: 20px;
-    }
-	h5{
-        background: #00ffab;
-		text-align: left;
-        color: black;
-        font-size: 18px;
-        padding: 0 0 0 20px;
-	}
-	p{
-		padding: 0 0 0 50px;
-		color: white;
 	}
 </style>

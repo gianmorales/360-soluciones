@@ -18,7 +18,7 @@
                 >
               </li>
               <li>
-                <a href="/"><button class="button">EQUIPO</button></a>
+                <a href="/equipo"><button class="button">EQUIPO</button></a>
               </li>
               <li>
                 <a href="/servicios"><button class="button">SERVICIOS</button></a>
