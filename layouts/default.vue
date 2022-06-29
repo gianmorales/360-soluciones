@@ -15,12 +15,12 @@
       <div class="buttonsmain">
         <a href="/vitrina"
           ><button type="button" class="btn btn-info">
-            Políticas y Condiciones
+            Términos y Condiciones
           </button></a
         >
         <a href="/inicioSesion"
           ><button type="button" class="btn btn-info">
-            Iniciar sesión
+            Trabaja con Nosotros
           </button></a
         >
       </div>

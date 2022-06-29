@@ -4,7 +4,7 @@
       <div class="col-md-8 colorfondo">
         <div class="row">
           <div class="col-md-12 text-center mt-3">
-            <h1>CREAR NUEVA CUENTA DE CLIENTE</h1>
+            <h1>CREAR NUEVA CUENTA DE POSTULANTE</h1>
             <p class="pt-3">Te invitamos a que seas parte de 360 SOLUCIONES</p>
           </div>
         </div>

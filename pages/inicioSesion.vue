@@ -4,7 +4,7 @@
       <div class="col-md-5 pt-5 pb-5 colorfondo">
         <div class="row">
           <div class="col-md-12 d-flex justify-content-center">
-            <h2 class="text-center">CLIENTES REGISTRADOS</h2>
+            <h2 class="text-center">POSTULANTES REGISTRADOS</h2>
           </div>
           <div class="col-md-12 text-center">
             <span
@@ -59,7 +59,7 @@
       <div class="col-md-5 pt-5 pb-5 colorfondo">
         <div class="row">
           <div class="col-md-12 d-flex justify-content-center">
-            <h2 class="text-center">NUEVOS CLIENTES</h2>
+            <h2 class="text-center">NUEVOS POSTULANTES</h2>
           </div>
           <div class="col-md-12 text-center">
             <span>Si no cuentas con una cuenta, toma paso a registrarte.</span>
@@ -79,11 +79,11 @@
                 <hr >
               </div>
             </div>
-            <did class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center">
                 <div class="col-md-10">
                 <redes-sociales ></redes-sociales>
             </div>
-            </did>
+            </div>
           </div>
         </div>
       </div>

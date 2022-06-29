@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row mt-5 d-flex justify-content-center">
-      <div class="col-md-4 p-5 colorfondo">
+      <div class="col-md-4 p-5 colorfondo1">
         <div class="row">
           <div class="col-md-12 d-flex justify-content-center imgfondo">
             <h1 class="mt-5 text-center">
@@ -25,6 +25,7 @@
             <h5>
               <strong>Teléfono: </strong><a href="tel:955462955">955 462 955</a>
             </h5>
+            <h5><strong>Dirección: </strong><span style="color: black">C. Los Pinos 490, San Isidro 15073</span></h5>
           </div>
           <div>
             <h1>
@@ -135,5 +136,8 @@ h5 {
 }
 .colorfondo {
   background-color: #eee;
+}
+.colorfondo1 {
+  background-color: rgb(250, 211, 211);
 }
 </style>
