@@ -10,21 +10,21 @@
           <nav>
             <ul>
               <li>
-                <a href="/"><button class="">INICIO</button></a>
+                <a href="/"><button class="button">INICIO</button></a>
               </li>
               <li>
                 <a href="/presentacion"
-                  ><button class="">PRESENTACIÓN</button></a
+                  ><button class="button">PRESENTACIÓN</button></a
                 >
               </li>
               <li>
-                <a href="/equipo"><button class="">EQUIPO</button></a>
+                <a href="/"><button class="button">EQUIPO</button></a>
               </li>
               <li>
-                <a href="/servicios"><button class="">SERVICIOS</button></a>
+                <a href="/servicios"><button class="button">SERVICIOS</button></a>
               </li>
               <li>
-                <a href="/"><button class="">CLIENTES</button></a>
+                <a href="/"><button class="button">CLIENTES</button></a>
               </li>
               <li>
                 <a href="/contacto"
