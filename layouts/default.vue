@@ -15,12 +15,12 @@
       <div class="buttonsmain">
         <a href="/vitrina"
           ><button type="button" class="btn btn-info">
-            Vitrina de Talentos
+            Políticas y Condiciones
           </button></a
         >
-        <a href="/registrate"
+        <a href="/inicioSesion"
           ><button type="button" class="btn btn-info">
-            Registra tus datos
+            Iniciar sesión
           </button></a
         >
       </div>
