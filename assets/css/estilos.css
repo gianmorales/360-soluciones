@@ -13,7 +13,9 @@
     format('truetype');
   }
   
-  
+  html{
+    overflow-x: hidden;
+  }
   .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -43,55 +45,28 @@
 	margin: 0;
 	padding: 0;
 }
-header{
-	background-color: #24252A;
-}
 body{
-	display: grid;
-	background: #eee;
+	background-image: url("/imagenes/fondo.jpeg");
+    background-position: center;
+    background-size: cover;
 }
-li, a, button{
-	font-family: "Monserrat", sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	color: #edf0f1;
-	text-decoration: none;
-}
+
 
 header{
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-start;
-	padding: 30px 10%;	
+	display: flex;	
 }
-
 .logo{
+	width: auto;
 	cursor: pointer;
-	height: 100px;
-	margin-right: auto;
+	height: 80px;
 }
-
-.nav_links li {
-	display: inline-block;
-	padding: 8px 10px;
-}
-
-.nav_links li a{
-	transition: all 0.3s ease 0s;
-    color: turquoise;
-}
-
-.nav_links li a:hover {
-	color: #0088a9;
-}
-
 .button{
-	margin-left: 20px;
-	padding: 9px 25px;
 	border: none;
 	border-radius: 50px;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
+	display: flex;
+	text-decoration: none;
 }
 
 .button:hover{
@@ -99,7 +74,7 @@ header{
 }
 
 .buttonsmain{
-	padding: 20px 30px 100px 30px;
+	padding: 20px 30px 0px 30px;
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -109,7 +84,6 @@ header{
 	padding: 10px 30px 10px 10px;
 	text-align: right;
 	color: white;
-	font-size: 5px;
 }
 .footer{
 	background-color: white;
