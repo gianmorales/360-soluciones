@@ -118,7 +118,7 @@
               jurídica.
             </p>
             <p>
-              <strong>MODIFICACIÓN</strong>
+              <strong>MODIFICACIÓN</strong><br>
               360 SOLUCIONES se reserva el derecho, a su única discreción, a
               modificar la página, la aplicación o los servicios, o a alterar
               los presentes Términos, incluidas las tarifas de los servicios, en
@@ -135,7 +135,7 @@
               uso de la página, la aplicación o los servicios correspondientes.
             </p>
             <p>
-              <strong>ELEGIBILIDAD</strong>
+              <strong>ELEGIBILIDAD</strong><br>
               La página, la aplicación y los servicios están dirigidos
               exclusivamente a personas de al menos 18 años de edad. Está
               expresamente prohibido todo acceso o uso de la página, la
@@ -147,7 +147,7 @@
               <strong
                 >FUNCIONAMIENTO DE LA PÁGINA WEB, LA APLICACIÓN Y LOS
                 SERVICIOS</strong
-              >
+              ><br>
               La página web, la aplicación y los servicios se pueden utilizar
               para facilitar el listado y la reserva de experiencias y/o
               actividades de ocio. Los proveedores incluyen dichas experiencias
@@ -180,7 +180,7 @@
               DE LAS EXPERIENCIAS Y/O ACTIVIDADES DE OCIO
             </p>
             <p>
-              <strong>REGISTRO DE CUENTA</strong>
+              <strong>REGISTRO DE CUENTA</strong><br>
               Para acceder a ciertas funciones de la página web y la aplicación,
               y para crear un listado, debe registrarse para crear una cuenta
               (“cuenta de 360 SOLUCIONES”) y convertirse en miembro. Puede
@@ -207,7 +207,7 @@
               SOLUCIONES.
             </p>
             <p>
-              <strong>LISTADOS de experiencias y/o actividades de oCIO</strong>
+              <strong>LISTADOS de experiencias y/o actividades de oCIO</strong><br>
               Como miembro, usted puede crear listados. A este extremo, se le
               formulará una variedad de preguntas sobre la experiencia y/o
               actividad de ocio a enumerar, incluyendo entre otros, la
@@ -274,7 +274,7 @@
               ocio.
             </p>
             <p>
-              <strong>CLÁUSULA DE “NO RESPALDO”</strong>
+              <strong>CLÁUSULA DE “NO RESPALDO”</strong><br>
               360 SOLUCIONES no respalda ni avala a ningún miembro o experiencia
               y/o actividad de ocio. Usted es responsable de comprobar la
               identidad y la idoneidad de otros a quienes contacte a través de
@@ -301,7 +301,7 @@
             <p>
               <strong
                 >RESERVAS Y TÉRMINOS FINANCIEROS DE LOS proveedores</strong
-              >
+              ><br>
               Cuando se solicita una reserva a través de la página web, la
               aplicación o los servicios, compartiremos con usted el nombre
               propio y apellido del usuario que ha solicitado la reserva. Las
@@ -322,7 +322,7 @@
               <strong
                 >DESIGNACIÓN DE 360 SOLUCIONES COMO AGENTE DE PAGOS DEL
                 Proveedor</strong
-              >
+              ><br>
               En este acto, el proveedor nombra a 360 SOLUCIONES como agente
               limitado del proveedor al objeto exclusivo de cobrar los pagos de
               los usuarios en su nombre y representación. El proveedor acepta
@@ -342,7 +342,7 @@
               proveedor.
             </p>
             <p>
-              <strong>RESERVAS Y TÉRMINOS FINANCIEROS PARA LOS Usuarios</strong>
+              <strong>RESERVAS Y TÉRMINOS FINANCIEROS PARA LOS Usuarios</strong><br>
               Los proveedores, no 360 SOLUCIONES, son responsables
               exclusivamente de respetar toda reserva confirmada y poner a la
               disposición toda la experiencia y/o actividad de ocio reservada a
@@ -403,7 +403,7 @@
               servicios.
             </p>
             <p>
-              <strong>CANCELACIONES Y REEMBOLSOS</strong>
+              <strong>CANCELACIONES Y REEMBOLSOS</strong><br>
               Si usted desea cancelar una reserva confirmada a través de la
               página web, la aplicación y los servicios, la política de
               cancelación del proveedor contenida en el listado correspondiente
@@ -415,7 +415,7 @@
               política de cancelación.
             </p>
             <p>
-              <strong>PRIVACIDAD</strong>
+              <strong>PRIVACIDAD</strong><br>
               Consulte la Política de privacidad de 360 SOLUCIONES en Política
               de privacidad.
             </p>
@@ -423,7 +423,7 @@
               <strong
                 >CONTENIDOS DE 360 SOLUCIONES Y LICENCIA DE LOS CONTENIDOS DE
                 LOS MIEMBROS</strong
-              >
+              ><br>
               Sujeto al cumplimiento de los términos y condiciones de estos
               Términos, 360 SOLUCIONES le concede una licencia limitada no
               exclusiva y no transferible para (i) acceder y visualizar
@@ -445,7 +445,7 @@
               licencias y derechos concedidos expresamente en estos Términos.
             </p>
             <p>
-              <strong>CONTENIDOS DE LOS MIEMBROS</strong>
+              <strong>CONTENIDOS DE LOS MIEMBROS</strong><br>
               Nosotros podemos, bajo nuestro criterio exclusivo, permitir a los
               miembros publicar, cargar, colgar, presentar o transmitir
               contenidos de miembros. Al hacer disponible cualquier contenido de
@@ -483,7 +483,7 @@
               ley o regulación aplicable.
             </p>
             <p>
-              <strong>LIMITACIÓN DE RESPONSABILIDAD</strong>
+              <strong>LIMITACIÓN DE RESPONSABILIDAD</strong><br>
               USTED ACEPTA Y CONVIENE QUE, HASTA DONDE LA LEY LO PERMITE, USTED
               ASUME TODOS LOS RIESGOS DERIVADOS DE SU ACCESO Y USO DE LA PÁGINA
               WEB, LA APLICACIÓN, LOS SERVICIOS Y LOS CONTENIDOS COLECTIVOS, SU
@@ -530,7 +530,7 @@
               (12) MESES PREVIOS AL SUCESO QUE DÉ LUGAR AL PASIVO.
             </p>
             <p>
-              <strong>ACUERDO COMPLETO</strong>
+              <strong>ACUERDO COMPLETO</strong><br>
               Estos Términos constituyen el entendimiento y acuerdo completo y
               exclusivo entre 360 SOLUCIONES y usted sobre la página web, la
               aplicación, los servicios, los contenidos colectivos, el programa
