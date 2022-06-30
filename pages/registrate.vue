@@ -4,7 +4,7 @@
       <div class="col-md-8 colorfondo pt-5">
         <div class="row d-flex justify-content-center">
           <div class="col-md-11">
-          <a href="/inicio-sesion">
+          <a href="/trabaja-con-nosotros">
             <svg style="width: 34px; height: 34px" viewBox="0 0 24 24">
             <path
               fill="currentColor"
