@@ -27,6 +27,15 @@
     <footer class="footer">Grupo N°3 - &copy;Derechos Reservados</footer>
   </div>
 </template>
+
+/*<style>
+  .footer{
+    color: white;
+    background: rgb(2,0,36);
+	  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(58,58,89,1) 35%, rgba(0,255,171,1) 100%);
+  }
+</style>*/
+
 <style scoped>
 svg{
   width: 30px;

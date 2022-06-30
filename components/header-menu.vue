@@ -1,4 +1,5 @@
 <template>
+  
   <div class="row">
     <div class="col-md-3 p-0">
       <img src="/imagenes/logo1.png" alt="">
@@ -17,7 +18,7 @@
                 >
               </li>
               <li>
-                <a href="/"><button class="button">EQUIPO</button></a>
+                <a href="/equipo"><button class="button">EQUIPO</button></a>
               </li>
               <li>
                 <a href="/servicios"><button class="button">SERVICIOS</button></a>

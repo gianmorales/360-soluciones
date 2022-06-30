@@ -75,6 +75,7 @@ export default {
   name: "IndexPage",
 };
 </script>
+
 <style scoped>
 img {
   height:auto;
@@ -87,3 +88,4 @@ img {
   height: 150px;
 }
 </style>
+>>>>>>> 802abfc6e60641acf212e220e4b1b330e986a7af
