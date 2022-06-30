@@ -23,7 +23,7 @@
                 <a href="/servicios"><button class="button">SERVICIOS</button></a>
               </li>
               <li>
-                <a href="/"><button class="button">CLIENTES</button></a>
+                <a href="/clientes"><button class="button">CLIENTES</button></a>
               </li>
               <li>
                 <a href="/contacto"

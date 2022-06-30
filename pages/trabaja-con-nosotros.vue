@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row mt-5 d-flex justify-content-center">
+    <div class="row mt-5 d-flex justify-content-center pb-5">
       <div class="col-md-5 pt-5 pb-5 colorfondo">
         <div class="row">
           <div class="col-md-12 d-flex justify-content-center">
@@ -90,6 +90,11 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  layout: "botones"
+}
+</script>
 <style scoped>
 .colorfondo {
   background-color: #eee;

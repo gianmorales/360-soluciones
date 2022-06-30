@@ -12,18 +12,6 @@
       
     </div>
     <div class="col-md-12">
-      <div class="buttonsmain">
-        <a href="/terminos-y-condiciones"
-          ><button type="button" class="btn btn-info">
-            Términos y Condiciones
-          </button></a
-        >
-        <a href="/trabaja-con-nosotros"
-          ><button type="button" class="btn btn-info">
-            Trabaja con Nosotros
-          </button></a
-        >
-      </div>
       <footer-menu></footer-menu>
     </div>
   </div>
