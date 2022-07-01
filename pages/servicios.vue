@@ -51,9 +51,10 @@
 	}
 	section{
 		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
+		justify-content: center;
 		align-content: center;
-		padding: 50px;
 	}
 	.card{
 		background: black;
