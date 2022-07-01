@@ -45,7 +45,12 @@
 		</section>			
 	</main>
 </template>
-<style>
+<script>
+export default {
+  layout: "botones",
+};
+</script>
+<style scoped>
 	section{
 		display: flex;
 		width: auto;

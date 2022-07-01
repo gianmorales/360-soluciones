@@ -1,8 +1,7 @@
 <template>
-  
   <div class="row">
     <div class="col-md-3 p-0">
-      <img src="/imagenes/logo1.png" alt="">
+      <img src="/imagenes/logo1.png" alt="" />
     </div>
     <div class="col-md-9 p-0">
       <header>
@@ -10,26 +9,30 @@
           <nav>
             <ul>
               <li>
-                <a href="/"><button class="button">INICIO</button></a>
+                <nuxt-link to="/">
+                  <button class="button">INICIO</button>
+                </nuxt-link>
               </li>
               <li>
-                <a href="/presentacion"
-                  ><button class="button">PRESENTACIÓN</button></a
-                >
+             
+                <nuxt-link to="/presentacion">
+                  <button class="button">PRESENTACIÓN</button>
+                </nuxt-link>
               </li>
               <li>
-                <a href="/equipo"><button class="button">EQUIPO</button></a>
+                <nuxt-link to="/equipo"><button class="button">EQUIPO</button></nuxt-link>
               </li>
               <li>
-                <a href="/servicios"><button class="button">SERVICIOS</button></a>
+                <nuxt-link to="/servicios"
+                  ><button class="button">SERVICIOS</button></nuxt-link>
+
               </li>
               <li>
-                <a href="/clientes"><button class="button">CLIENTES</button></a>
+                <nuxt-link to="/clientes"><button class="button">CLIENTES</button></nuxt-link>
               </li>
               <li>
-                <a href="/contacto"
-                  ><button class="button">CONTÁCTANOS</button></a
-                >
+                <nuxt-link to="/contacto"
+                  ><button class="button">CONTÁCTANOS</button></nuxt-link>
               </li>
             </ul>
           </nav>
@@ -43,7 +46,7 @@ export default {};
 </script>
 <style scoped>
 button {
-  margin: 12px 20px ;
+  margin: 12px 20px;
   padding: 9px 25px;
   background-color: rgb(139, 192, 192);
   border: none;

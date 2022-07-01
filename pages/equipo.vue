@@ -69,6 +69,11 @@
     </section>
 </main>
 </template>
+<script>
+export default {
+  layout: "botones",
+};
+</script>
 <style>
 
     .fichero{
