@@ -4,14 +4,14 @@
       <div class="col-md-8 colorfondo pt-5">
         <div class="row d-flex justify-content-center">
           <div class="col-md-11">
-          <a href="/trabaja-con-nosotros">
+          <nuxt-link to="/trabaja-con-nosotros">
             <svg style="width: 34px; height: 34px" viewBox="0 0 24 24">
             <path
               fill="currentColor"
               d="M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M18,11H10L13.5,7.5L12.08,6.08L6.16,12L12.08,17.92L13.5,16.5L10,13H18V11Z"
             />
           </svg>
-          </a>
+          </nuxt-link>
         </div>
         </div>
         <div class="row">
