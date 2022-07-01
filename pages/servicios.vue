@@ -45,16 +45,15 @@
 		</section>			
 	</main>
 </template>
-<style>
-	main{
-		width: 100%;
-	}
+<script>
+export default {
+  layout: "botones",
+};
+</script>
+<style scoped>
 	section{
 		display: flex;
-		flex-wrap: wrap;
 		width: 100%;
-		justify-content: center;
-		align-content: center;
 	}
 	.card{
 		background: black;

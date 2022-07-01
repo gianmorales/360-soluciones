@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row mt-5 d-flex justify-content-center">
+    <div class="row mt-2 d-flex justify-content-center">
       <div class="col-md-10 d-flex justify-content-center  ">
         <h1 class="mt-5 pb-5 animate__animated  animate__bounceIn" style="color: white">
           !Trabajemos juntos¡
@@ -39,7 +39,7 @@
             </div>
           </div>
         </div>
-        <div class="row d-flex justify-content-center pb-5 pt-3 colorfondo1">
+        <div class="row d-flex justify-content-center pb-3 pt-3 colorfondo1">
           <div class="col-md-12 d-flex justify-content-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7804.490251183233!2d-76.99601894609374!3d-12.026638299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48bb46d92d8fc073%3A0xaf2bd3fe09ef417d!2s360%20Soluciones%20-%20Servicios%20M%C3%BAltiples!5e0!3m2!1ses-419!2spe!4v1656290982285!5m2!1ses-419!2spe"
@@ -130,6 +130,11 @@
     <div class="row d-flex justify-content-center"></div>
   </div>
 </template>
+<script>
+export default {
+  layout: "botones",
+};
+</script>
 <style scoped>
 .imgfondo {
   background-image: url("/imagenes/contact-fond.jpg");

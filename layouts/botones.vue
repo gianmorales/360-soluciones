@@ -32,8 +32,5 @@ button {
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
-body {
-  display: grid;
-  background: black;
-}
+
 </style>

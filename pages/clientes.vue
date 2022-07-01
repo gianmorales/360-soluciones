@@ -4,7 +4,7 @@
       <div class="col-md-11 p-5">
         <div class="row d-flex justify-content-center">
           <div class="col-md-4" >
-            <img src="/imagenes/Imagen1.jpeg" alt="" class="animate__animated animate__fadeInLeft">
+            <img src="imagenes/Imagen1.jpeg" alt="" class="animate__animated animate__fadeInLeft">
           </div>
           <div class="col-md-4 fondotext1">
             <span
@@ -19,7 +19,7 @@
         </div>
         <div class="row d-flex justify-content-center">
           <div class="col-md-4 pt-5">
-            <img src="/imagenes/Imagen2.jpeg" alt="" class="animate__animated animate__backInLeft">
+            <img src="imagenes/Imagen2.jpeg" alt="" class="animate__animated animate__backInLeft">
           </div>
           <div class="col-md-4 fondotext2 mt-5">
             <span
@@ -33,7 +33,7 @@
         </div>
         <div class="row d-flex justify-content-center">
           <div class="col-md-4 pt-5">
-            <img src="/imagenes/Imagen3.jpeg" alt="" class="animate__animated animate__slideInLeft">
+            <img src="imagenes/Imagen3.jpeg" alt="" class="animate__animated animate__slideInLeft">
           </div>
           <div class="col-md-4 fondotext3 mt-5">
             <span 
@@ -51,6 +51,11 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  layout: "botones",
+};
+</script>
 <style scoped>
 .fondotext1 {
   background-color: bisque;

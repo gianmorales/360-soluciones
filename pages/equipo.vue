@@ -69,8 +69,12 @@
     </section>
 </main>
 </template>
+<script>
+export default {
+  layout: "botones",
+};
+</script>
 <style>
-
     .fichero{
         display: flex;
         flex-wrap: wrap;
@@ -86,6 +90,7 @@
     }
     .card-title{
         font-size: 30px;
+        color: black;
     }
     
     .subtle{

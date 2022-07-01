@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="row d-flex justify-content-center py-5">
+  <div class="bodyfont">
+ <div class=" row d-flex justify-content-center py-5 ">
       <div class="col-md-8 colorfondo pt-5">
         <h1 class="text-center">Términos y Condiciones</h1>
         <div class="row d-flex justify-content-center py-5">
@@ -560,8 +560,12 @@ export default {
 }
 p {
   text-align: justify;
+  color:black;
 }
 h1 {
   color: darkred;
 }
+.bodyfont{
+  background-color: black;
+  }
 </style>

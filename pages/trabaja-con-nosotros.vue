@@ -53,7 +53,7 @@
               </div>
             </div>
             <redes-sociales></redes-sociales>
-          </div>
+          </div> 
         </div>
       </div>
       <div class="col-md-5 pt-5 pb-5 colorfondo">
@@ -66,7 +66,7 @@
           </div>
           <div class="row d-flex justify-content-center mt-2">
             <div class="col-md-7 mt-4">
-              <a href="/registrate"><button type="button" class="btn btn-danger">REGISTRATE</button></a>
+              <nuxt-link to="/registrate"><button type="button" class="btn btn-danger">REGISTRATE</button></nuxt-link>
             </div>
             <div class="row mt-3 d-flex justify-content-center">
               <div class="col-md-3 text-success">

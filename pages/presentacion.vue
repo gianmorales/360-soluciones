@@ -8,11 +8,10 @@
 		</div>
 		
 		<article>
-			<h2>SOMOS</h2
 			<p class="subtle">
 				Empresa dedicada a brindar personal calificado para eventos, ademas de poder realizar eventos corporativos y sociales.
 				<br>Contamos con personal calificado y experimentado para que tu evento salga perfecto
-			</p>	
+			</p>
 		</article>
 
 		<aside>
@@ -32,63 +31,61 @@
 	</section>
 	
 </template>
+<script>
+export default {
+  layout: "botones",
+};
+</script>
 
 <style>
 
-	body{
-        background: black;
-    }
-	section{
-		width: 100%;
-		padding:20px;
-		float: left;
-	}
-	article{
-		float: left;
-		width: 100%;
-		padding: 50px;
-		position: relative;
-		text-align: center;
-		color: white;
-		font-size: 18px;
-	}
-	h2{
-        text-align: center;
-        color: #00ffab;
-        font-size: 28px;
-        padding: 0;
-    }
-	h5{
-        text-align: center;
-        color: white;
-        font-size: 18px;
-        padding: 0;
-    }
-	aside{
-		float: left;
-		width: 50%;
-		padding: 50px;
-
-	}
-	.caption{
-		width:100%;
-		float: left;
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		z-index: -1;
-		opacity: 20%;
-		display: flex;
-		flex-content: center;
-		align-content: center;
-		justify-content: center;
-		
-	}
-	video{
-		width:100%;
-		flex-content: center;
-		align-content: center;
-	}
-
-	
+section {
+  width: 100%;
+  padding: 20px;
+  float: left;
+}
+article {
+  float: left;
+  width: 100%;
+  padding: 50px;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+h2 {
+  text-align: center;
+  color: #00ffab;
+  font-size: 28px;
+  padding: 0;
+}
+h5 {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 0;
+}
+aside {
+  float: left;
+  width: 50%;
+  padding: 50px;
+}
+.caption {
+  width: 100%;
+  float: left;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 20%;
+  display: flex;
+  flex-content: center;
+  align-content: center;
+  justify-content: center;
+}
+video {
+  width: 100%;
+  flex-content: center;
+  align-content: center;
+}
 </style>

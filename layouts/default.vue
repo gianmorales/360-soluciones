@@ -1,5 +1,6 @@
 <template>
-  <div class="row d-flex justify-content-center">
+<div>
+  <div class="root row d-flex justify-content-center">
     <div class="col-md-12">
       <div class="row d-flex justify-content-end">
         <div class="col-md-12">
@@ -13,20 +14,22 @@
     </div>
     <div class="col-md-12">
       <div class="buttonsmain">
-        <a href="/terminos-y-condiciones"
+        <nuxt-link to="/terminos-y-condiciones"
           ><button type="button" class="btn btn-info">
             Términos y Condiciones
-          </button></a
-        >
-        <a href="/trabaja-con-nosotros"
+          </button></nuxt-link>
+        <nuxt-link to="/trabaja-con-nosotros"
           ><button type="button" class="btn btn-info">
             Trabaja con Nosotros
-          </button></a
-        >
+          </button></nuxt-link>
       </div>
       <footer-menu></footer-menu>
     </div>
+    
+
   </div>
+</div>
+
 </template>
 
 
@@ -44,8 +47,6 @@ button {
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
-body {
-  display: grid;
-  background: black;
-}
+
+
 </style>
