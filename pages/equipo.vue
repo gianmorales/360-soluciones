@@ -9,7 +9,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Mozos</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver CV</a>
                 </div>
         </div>
 
@@ -18,7 +17,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Bartenders</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver CV</a>
                 </div>
         </div>
 
@@ -27,7 +25,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Chef</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver CV</a>
                 </div>
         </div>
 
@@ -36,7 +33,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Pastelero</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver CV</a>
                 </div>
         </div>
 
@@ -45,7 +41,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Stewards</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver CV</a>
                 </div>
         </div>
 
@@ -54,7 +49,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Wedding Planner</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver CV</a>
                 </div>
         </div>
 
@@ -63,7 +57,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Supervisor</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver CV</a>
                 </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -71,7 +64,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Fotógrafos</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver CV</a>
                 </div>
         </div>
     </section>
@@ -91,7 +83,6 @@
         margin: 20px;
         gap: 5px;
     }
-    
     .card-title{
         font-size: 30px;
     }
@@ -109,6 +100,5 @@
         font-size: 28px;
         padding: 15px 0 0 0 ;
     }
-
 
 </style>
