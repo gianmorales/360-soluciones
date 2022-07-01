@@ -1,18 +1,22 @@
 <template>
   <div>
     <div class="row mt-5 d-flex justify-content-center">
-      <div class="col-md-10 d-flex justify-content-center colorfondo">
-        <h1 class="mt-5">
+      <div class="col-md-10 d-flex justify-content-center  ">
+        <h1 class="mt-5 pb-5 animate__animated  animate__bounceIn" style="color: white">
           !Trabajemos juntos¡
-          <p class="mt-4">
+        </h1>
+      </div>
+      <div class="col-md-5 ps-5 colorfondo">
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <p >
             Si deseas consultar mayor información sobre nuestros servicios o
             tienes alguna duda al respecto, no dudes en solicitar una
             consultoría gratuita y uno de nuestros asesores te contactará a la
             brevedad.
           </p>
-        </h1>
-      </div>
-      <div class="col-md-5 p-5 colorfondo">
+          </div>
+        </div>
         <div class="row colorfondo1">
           <div class="col-md-9">
             <div class="col-md-12">
@@ -22,7 +26,6 @@
                   >rrhh@360solucionesperu.com</a
                 >
               </h5>
-              <br >
               <h5>
                 <strong>Teléfono: </strong
                 ><a href="tel:955462955">955 462 955</a>
@@ -36,7 +39,7 @@
             </div>
           </div>
         </div>
-        <div class="row d-flex justify-content-center pt-5">
+        <div class="row d-flex justify-content-center pb-5 pt-3 colorfondo1">
           <div class="col-md-12 d-flex justify-content-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7804.490251183233!2d-76.99601894609374!3d-12.026638299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48bb46d92d8fc073%3A0xaf2bd3fe09ef417d!2s360%20Soluciones%20-%20Servicios%20M%C3%BAltiples!5e0!3m2!1ses-419!2spe!4v1656290982285!5m2!1ses-419!2spe"

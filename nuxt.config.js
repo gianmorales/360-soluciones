@@ -26,6 +26,7 @@ export default {
   
     "node_modules/bootstrap/dist/css/bootstrap.min.css",
     "@/assets/css/estilos.css",
+    "node_modules/animate.css/animate.min.css"
   ],
   script: [
    
