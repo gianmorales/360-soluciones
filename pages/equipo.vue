@@ -75,10 +75,15 @@ export default {
 };
 </script>
 <style>
+    main{
+        width: 100%;
+    }
     .fichero{
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
         justify-content: center;
+        align-items: center;
         margin-bottom: 100px;
     } 
 
@@ -87,6 +92,7 @@ export default {
         margin: 20px;
         gap: 5px;
         background: white;
+        width: 100%;
     }
     .card-title{
         font-size: 30px;
