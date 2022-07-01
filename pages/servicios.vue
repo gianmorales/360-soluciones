@@ -53,7 +53,9 @@ export default {
 <style scoped>
 	section{
 		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
+		justify-content: center;
 	}
 	.card{
 		background: black;

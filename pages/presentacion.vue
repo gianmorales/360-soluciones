@@ -77,7 +77,7 @@ aside {
   right: 0;
   bottom: 0;
   z-index: -1;
-  opacity: 20%;
+  opacity: 25%;
   display: flex;
   flex-content: center;
   align-content: center;
