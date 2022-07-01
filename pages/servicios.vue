@@ -46,10 +46,14 @@
 	</main>
 </template>
 <style>
+	main{
+		width: 100%;
+	}
 	section{
 		display: flex;
-		width: auto;
-		margin: 30px;
+		width: 100%;
+		align-content: center;
+		padding: 50px;
 	}
 	.card{
 		background: black;

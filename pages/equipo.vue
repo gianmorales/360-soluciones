@@ -82,6 +82,7 @@
         padding: 2px 2px 2px 2px;
         margin: 20px;
         gap: 5px;
+        background: white;
     }
     .card-title{
         font-size: 30px;

@@ -5,7 +5,7 @@
       <img src="/imagenes/logo1.png" alt="">
     </div>
     <div class="col-md-9 p-0">
-      <header>
+      <header class="sticky-top">
         <div class="col-md-12">
           <nav>
             <ul>
